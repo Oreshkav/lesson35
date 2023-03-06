@@ -4,10 +4,16 @@ public class Wein {
   int year;
 
 
-  Wein(String nameWein, String sortWein, int yearWeibn){
-    name = nameWein;
-    sort = sortWein;
-    year = yearWeibn;
+  Wein(String name, String sort, int yearWein){
+    this.name = name;
+    this.sort = sort;
+    year = yearWein;
+  }
+
+  Wein(String name, String sort){
+    this.name = name;
+    this.sort = sort;
+    year = 2023;
   }
 
     Wein(){

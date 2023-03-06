@@ -30,11 +30,12 @@ public class lesson35hw1 {
     System.out.println(vinishko2.toString());
     vinishko2.getYear();
 
-    Wein vinishko3 = new Wein();
+    Wein vinishko3 = new Wein("Montepulchiano", "dry");
     vinishko3.name = "Montepulchiano";
     vinishko3.sort = "dry";
-    vinishko3.year = 2010;
+//    vinishko3.year = 2010;
     System.out.println(vinishko3.toString());
+
     vinishko3.getYear();
 
     vinishko.onStock(Integer.parseInt(br.readLine()));
