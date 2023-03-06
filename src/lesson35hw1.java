@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+public class lesson35hw1 {
   public static void main(String[] args) throws IOException {
     //Задача 1. Создайте класс Wine, который содержит переменные
     // name, sort и year.
