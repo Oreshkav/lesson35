@@ -4,28 +4,31 @@ public class Wein {
   int year;
 
 
-  Wein(String name, String sort, int yearWein){
+  Wein(String name, String sort, int yearWein) {
     this.name = name;
     this.sort = sort;
     year = yearWein;
   }
 
-  Wein(String name, String sort){
+  Wein(String name, String sort) {
     this.name = name;
     this.sort = sort;
     year = 2023;
   }
 
-    Wein(){
+  Wein() {
   }
+
   @Override
   public String toString() {
-    return "Wein {" + "name = " + name + ", sort = " + sort + ", year = " + year +'}';
+    return "Wein {" + "name = " + name + ", sort = " + sort + ", year = " + year + '}';
   }
-  void onStock(int quantity){
+
+  void onStock(int quantity) {
     System.out.printf("На складе имеется %d бутылок", quantity);
   }
-  void getYear(){
+
+  void getYear() {
     System.out.println(year);
   }
 
